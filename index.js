@@ -10,7 +10,7 @@ function summonCaptainPlanet(fruits){
 }
 
 function longPlaneteerCalls(longCalls){
-  for(var i=0;i<longCalls[i].length;i++){
+  for(var i=0;i<longCalls.length;i++){
     if (longCalls[i].length > 4)
     return true;
     else 
