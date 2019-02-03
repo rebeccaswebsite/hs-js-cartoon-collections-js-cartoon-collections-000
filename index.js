@@ -19,11 +19,11 @@ function longPlaneteerCalls(longCalls){
 }
 
 function findTheCheese (cheddarCheese) {
-  if (cheddarCheese.includes("cheddar", 0))
+  if (cheddarCheese.includes("cheddar"))
   return "cheddar";
-  else if(cheddarCheese.includes("gouda", 0))
+  else if(cheddarCheese.includes("gouda"))
   return"gouda";
-  else if(cheddarCheese.includes("camembert", 0))
+  else if(cheddarCheese.includes("camembert"))
   return "camembert";
   else 
   return("no cheese!");
