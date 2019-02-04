@@ -18,12 +18,12 @@ function longPlaneteerCalls(words){
   }
 }
 
-function findTheCheese (cheddarCheese) {
-  if (cheddarCheese.includes("cheddar"))
+function findTheCheese (foods) {
+  if (foods.includes("cheddar"))
   return "cheddar";
-  else if(cheddarCheese.includes("gouda"))
+  else if(foods.includes("gouda"))
   return"gouda";
-  else if(cheddarCheese.includes("camembert"))
+  else if(foods.includes("camembert"))
   return "camembert";
   else 
   return("no cheese!");
