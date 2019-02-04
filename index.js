@@ -9,9 +9,9 @@ function summonCaptainPlanet(fruits){
   return fruits;
 }
 
-function longPlaneteerCalls(longCalls){
-  for(var i=0;i<longCalls.length;i++){
-    if (longCalls[i].length > 4)
+function longPlaneteerCalls(words){
+  for(var i=0;i<words.length;i++){
+    if (words[i].length > 4)
     return true;
     else 
     return false;
