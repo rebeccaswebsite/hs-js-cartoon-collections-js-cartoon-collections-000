@@ -1,5 +1,9 @@
 function dwarfRollCall(dwarves) {
-  return `1. ${dwarves[0]} 2. ${dwarves[1]} 3. ${dwarves[2]} `;
+  var dwarfList = [];
+  for (var i = 0; i < dwarves.length; i++) {
+    dwarfList += `${i+1}. ${dwarves[i]}`;
+  }
+  return dwarfList; 
 }
 
 function summonCaptainPlanet(fruits){
@@ -25,6 +29,22 @@ function findTheCheese (foods) {
   return"gouda";
   else if(foods.includes("camembert"))
   return "camembert";
+  else if (food.includes("swiss cheese"))
+  return "swiss cheese";
   else 
   return("no cheese!");
 }
+
+var words = ["Brian", "Joe", "Jane"];
+"banana", "berry", "cheese"
+
+function wordsThatStartWithB(words) {
+var bWords = [];
+  for (var i = 0; i < words.length; i++) {
+    if (words[i].StartsWith("B"))
+    bWords.push(words[i]);
+  }
+return bWords; 
+  
+}
+
